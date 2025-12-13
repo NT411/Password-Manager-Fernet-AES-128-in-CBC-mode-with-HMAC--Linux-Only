@@ -12,7 +12,8 @@ Security comes from two layers:
 - USB unlock password  
 - Fernet encryption of vault file  
 - Unique Fernet key stored only on USB  
-- Vault file permission hardened to `600`  
+- Vault file permission hardened to `600`
+- Automatic password generator with configurable length and character set
 - Argon2 password hashing support / Soon  
 - Aliases (`usbon` / `usboff`) for secure mount/unmount  
 
